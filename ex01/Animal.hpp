@@ -6,7 +6,7 @@
 /*   By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/17 14:00:16 by eschmitz          #+#    #+#             */
-/*   Updated: 2025/03/17 16:35:53 by eschmitz         ###   ########.fr       */
+/*   Updated: 2025/03/18 15:01:39 by eschmitz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ class Animal {
 		Animal	&operator=(const Animal &copy);
 
 		virtual void	makeSound() const;
-		std::string	getType() const;
 };
 
 #endif
